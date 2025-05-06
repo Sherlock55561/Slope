@@ -1,0 +1,12 @@
+import glob, os
+from compute_slope import load_dem, horn_slope, zeventho_slope
+from scipy.ndimage import generic_filter
+import numpy as np
+
+dem_paths = glob.glob(r"H:\algorithm\NSW1m\a4x4\dem_aoi_*.tif")
+for dem_fp in dem_paths:
+    arr, dx, dy = load_dem(dem_fp)
+    slope = generic_filter(arr, lambda w: horn_slope(w, dx, dy), size=3)
+    out_name = os.path.splitext(os.path.basename(dem_fp))[0] + "_slope.npy"
+    np.save(out_name, slope)
+    print("Saved", out_name)
