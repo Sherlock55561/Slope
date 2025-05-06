@@ -4,36 +4,57 @@ from scipy.ndimage import generic_filter
 from algorithmethod import horn_slope, zeventho_slope
 import matplotlib.pyplot as plt
 
-# Load DEM
-dem_path = "G:/algorithm/NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566246_56_0002_0002_1m.tif"
-with rasterio.open(dem_path) as src:
-    dem = src.read(1)
-    transform = src.transform
-    dx = transform.a  # cell width
-    dy = -transform.e 
+# ————————————————
+# Helper to load a DEM + extract pixel size
+# ————————————————
+def load_dem(path):
+    with rasterio.open(path) as src:
+        arr = src.read(1).astype(float)
+        dx = src.transform.a
+        dy = -src.transform.e
+    return arr, dx, dy
 
-def horn_window(window):
-    return horn_slope(window, dx, dy)
+# ————————————————
+# 1 m reference DEM (ground truth) and 10 m test DEM
+# ————————————————
+REF_DEM   = r"H:/algorithm/10.tif"
+TEST_DEM  = r"H:/algorithm/USGS_1M_17_x58y391_NC_Phase_4_CentralWestNC_GEIGER_A16.tif"
 
-def zeventho_window(window):
-    return zeventho_slope(window, dx, dy)
+# ————————————————
+# Load both DEMs
+# ————————————————
+ref_dem,  dx1, dy1 = load_dem(REF_DEM)
+test_dem, dx2, dy2 = load_dem(TEST_DEM)
 
-slope_horn = generic_filter(dem, horn_window, size=3)
-slope_zeven = generic_filter(dem, zeventho_window, size=3)
+DO_QUICK_TEST = True
 
-np.save("slope_horn.npy", slope_horn)
+if DO_QUICK_TEST:
+    # either crop:
+    ref_dem  = ref_dem[:5, :5]
+    test_dem = test_dem[:5, :5]
+    print("Running quick 5×5 crop test…")
+else:
+    print("Running full DEM…")
+# ————————————————
+# Compute reference slope (Horn’s method on 1 m DEM)
+# ————————————————
+def ref_horn_win(win):   return horn_slope(win, dx1, dy1)
+slope_ref   = generic_filter(ref_dem,  ref_horn_win,  size=3)
+
+# ————————————————
+# Compute test slopes (on 10 m DEM)
+# ————————————————
+def test_horn_win(win):  return horn_slope(win, dx2, dy2)
+def test_zeven_win(win): return zeventho_slope(win, dx2, dy2)
+
+slope_horn  = generic_filter(test_dem, test_horn_win,  size=3)
+slope_zeven = generic_filter(test_dem, test_zeven_win, size=3)
+
+# ————————————————
+# Save results for later evaluation
+# ————————————————
+np.save("slope_ref.npy",   slope_ref)
+np.save("slope_horn.npy",  slope_horn)
 np.save("slope_zeven.npy", slope_zeven)
 
-plt.figure(figsize=(12, 6))
-plt.subplot(1, 2, 1)
-plt.imshow(slope_horn, cmap='terrain')
-plt.title("Horn Slope (°)")
-plt.colorbar()
-
-plt.subplot(1, 2, 2)
-plt.imshow(slope_zeven, cmap='terrain')
-plt.title("Zevenbergen-Thorne Slope (°)")
-plt.colorbar()
-
-plt.tight_layout()
-plt.show()
+print("Slopes computed and saved to .npy files.")
