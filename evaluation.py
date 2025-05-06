@@ -1,132 +1,60 @@
-import os
+import rasterio
 import numpy as np
-import pandas as pd
+from scipy.ndimage import generic_filter
+from algorithmethod import horn_slope, zeventho_slope
 import matplotlib.pyplot as plt
-from scipy.ndimage import zoom
 
+# ————————————————
+# Helper to load a DEM + extract pixel size
+# ————————————————
+def load_dem(path):
+    with rasterio.open(path) as src:
+        arr = src.read(1).astype(float)
+        dx = src.transform.a
+        dy = -src.transform.e
+    return arr, dx, dy
 
-def load_and_resample(base_dir):
-    ref = np.load(os.path.join(base_dir, "slope_ref.npy"))
-    horn = np.load(os.path.join(base_dir, "slope_horn.npy"))
-    zeven = np.load(os.path.join(base_dir, "slope_zeven.npy"))
-    H, W = ref.shape
-    horn_rs = zoom(horn,  (H/horn.shape[0],   W/horn.shape[1]), order=1, mode='reflect')
-    zeven_rs = zoom(zeven,(H/zeven.shape[0], W/zeven.shape[1]),order=1, mode='reflect')
-    mask = ~np.isnan(ref)
-    return ref[mask].ravel(), horn_rs[mask].ravel(), zeven_rs[mask].ravel()
+# ————————————————
+# 1 m reference DEM (ground truth) and 10 m test DEM
+# ————————————————
+REF_DEM   = r"H:/algorithm/10.tif"
+TEST_DEM  = r"H:/algorithm/USGS_1M_17_x58y391_NC_Phase_4_CentralWestNC_GEIGER_A16.tif"
 
+# ————————————————
+# Load both DEMs
+# ————————————————
+ref_dem,  dx1, dy1 = load_dem(REF_DEM)
+test_dem, dx2, dy2 = load_dem(TEST_DEM)
 
-def compute_metrics(gt, est):
-    return (
-        np.sqrt(np.mean((gt - est)**2)),  # RMSE
-        np.mean(np.abs(gt - est)),         # MAE
-        np.corrcoef(gt, est)[0,1]          # Corr
-    )
+DO_QUICK_TEST = True
 
+if DO_QUICK_TEST:
+    # either crop:
+    ref_dem  = ref_dem[:5, :5]
+    test_dem = test_dem[:5, :5]
+    print("Running quick 5×5 crop test…")
+else:
+    print("Running full DEM…")
+# ————————————————
+# Compute reference slope (Horn’s method on 1 m DEM)
+# ————————————————
+def ref_horn_win(win):   return horn_slope(win, dx1, dy1)
+slope_ref   = generic_filter(ref_dem,  ref_horn_win,  size=3)
 
-def save_overall_metrics(gt, horn, zeven, path="slope_metrics.csv"):
-    rows = []
-    for name, arr in [("Horn", horn), ("Zevenbergen", zeven)]:
-        r, m, c = compute_metrics(gt, arr)
-        rows.append((name, r, m, c))
-    df = pd.DataFrame(rows, columns=["Method","RMSE","MAE","Corr"]).set_index("Method")
-    df.to_csv(path)
-    print("== Overall Metrics ==")
-    print(df)
-    return df
+# ————————————————
+# Compute test slopes (on 10 m DEM)
+# ————————————————
+def test_horn_win(win):  return horn_slope(win, dx2, dy2)
+def test_zeven_win(win): return zeventho_slope(win, dx2, dy2)
 
+slope_horn  = generic_filter(test_dem, test_horn_win,  size=3)
+slope_zeven = generic_filter(test_dem, test_zeven_win, size=3)
 
-def sample_by_quantile(gt, horn, zeven, quantiles=(10,50,90), min_nonzero=0.1):
-    mask = np.abs(gt) > min_nonzero
-    gt_nz, hnz, znz = gt[mask], horn[mask], zeven[mask]
-    qs = np.percentile(gt_nz, quantiles)
-    idx = [np.argmin(np.abs(gt_nz - q)) for q in qs]
-    labels = [f"{q}th pct" for q in quantiles]
-    df = pd.DataFrame({"GT": gt_nz[idx], "Horn": hnz[idx], "Zeven": znz[idx]}, index=labels)
-    df["Err_Horn"]  = df["Horn"]  - df["GT"]
-    df["Err_Zeven"] = df["Zeven"] - df["GT"]
-    print("== Quantile Samples ==")
-    print(df)
-    return df
+# ————————————————
+# Save results for later evaluation
+# ————————————————
+np.save("slope_ref.npy",   slope_ref)
+np.save("slope_horn.npy",  slope_horn)
+np.save("slope_zeven.npy", slope_zeven)
 
-
-def plot_value_bar(samples, filename):
-    fig, ax = plt.subplots(figsize=(6,4))
-    samples[["GT","Horn","Zeven"]].plot.bar(ax=ax, rot=0)
-    ax.set_ylabel("Slope")
-    ax.set_title("Slope Values by Sample")
-    for bar in ax.patches:
-        ax.text(bar.get_x()+bar.get_width()/2, bar.get_height()+0.5,
-                f"{bar.get_height():.1f}", ha='center', va='bottom', fontsize=8)
-    fig.tight_layout()
-    fig.savefig(filename, dpi=150)
-    plt.close(fig)
-    print(f"Saved: {filename}")
-
-
-def plot_error_bar(samples, filename):
-    err = samples[["Err_Horn","Err_Zeven"]].abs()
-    fig, ax = plt.subplots(figsize=(6,4))
-    err.plot.bar(ax=ax, rot=0)
-    ax.set_ylabel("|Error|")
-    ax.set_title("Absolute Error by Sample")
-    for bar in ax.patches:
-        ax.text(bar.get_x()+bar.get_width()/2, bar.get_height()+0.1,
-                f"{bar.get_height():.2f}", ha='center', va='bottom', fontsize=8)
-    fig.tight_layout()
-    fig.savefig(filename, dpi=150)
-    plt.close(fig)
-    print(f"Saved: {filename}")
-
-
-def plot_error_vs_gt(gt, est, method, filename):
-    fig, ax = plt.subplots(figsize=(6,5))
-    hb = ax.hexbin(gt, est-gt, gridsize=200, mincnt=1, cmap='Blues')
-    fig.colorbar(hb, ax=ax, label="Count")
-    ax.axhline(0, color='k', linestyle='--')
-    ax.set_xlabel("GT slope")
-    ax.set_ylabel(f"Error ({method})")
-    ax.set_title(f"{method} Error vs GT")
-    fig.tight_layout()
-    fig.savefig(filename, dpi=150)
-    plt.close(fig)
-    print(f"Saved: {filename}")
-
-
-def plot_bland_altman(horn, zeven, filename):
-    avg = 0.5*(horn + zeven)
-    diff = horn - zeven
-    md = diff.mean(); sd = diff.std()
-    fig, ax = plt.subplots(figsize=(6,5))
-    ax.scatter(avg, diff, s=1, alpha=0.3)
-    ax.axhline(md, color='k')
-    ax.axhline(md + 1.96*sd, color='gray', linestyle='--')
-    ax.axhline(md - 1.96*sd, color='gray', linestyle='--')
-    ax.set_xlabel("Average slope")
-    ax.set_ylabel("Horn - Zeven")
-    ax.set_title("Bland-Altman")
-    fig.tight_layout()
-    fig.savefig(filename, dpi=150)
-    plt.close(fig)
-    print(f"Saved: {filename}")
-
-
-if __name__ == "__main__":
-    BASE = os.path.dirname(__file__)
-    gt, horn, zeven = load_and_resample(BASE)
-
-    # overall metrics
-    save_overall_metrics(gt, horn, zeven, "slope_metrics.csv")
-
-    # quantile sampling
-    samples_q = sample_by_quantile(gt, horn, zeven)
-    plot_value_bar(samples_q,  "quantile_values.png")
-    plot_error_bar(samples_q,  "quantile_errors.png")
-
-    # error distribution
-    plot_error_vs_gt(gt, horn,    "Horn",       "horn_error_vs_gt.png")
-    plot_error_vs_gt(gt, zeven,   "Zevenbergen","zeven_error_vs_gt.png")
-
-    # method comparison
-    plot_bland_altman(horn, zeven, "bland_altman.png")
-
+print("Slopes computed and saved to .npy files.")
