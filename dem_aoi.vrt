@@ -1,0 +1,3061 @@
+<VRTDataset rasterXSize="38000" rasterYSize="30000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unnamed",GEOGCS["GDA94",DATUM["Geocentric_Datum_of_Australia_1994",SPHEROID["GRS 1980",6378137,298.257222101004,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","6283"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4283"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",153],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <GeoTransform>  2.4800000000000000e+05,  1.0000000000000000e+00,  0.0000000000000000e+00,  6.2680000000000000e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">89.52</MDI>
+      <MDI key="STATISTICS_MINIMUM">6.0554533004761</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1076.4309082031</MDI>
+      <MDI key="STATISTICS_MEAN">349.73449573858</MDI>
+      <MDI key="STATISTICS_STDDEV">240.48155288698</MDI>
+    </Metadata>
+    <NoDataValue>-9999</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2486248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2486250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2506252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2526252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2546258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2566256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2586252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2606238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2606240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2606242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2626238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2626240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2626242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2646238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2646240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2666238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2666240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201510-LID1-AHD_2506264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201510-LID1-AHD_2506266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201605-LID1-AHD_2686238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2606266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2626266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2646266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201804-LID1-AHD_2666266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2486262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2486264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2486266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2506262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2506264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2506266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="2000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2526262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2526264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2526266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="4000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2546262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2546264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2546266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="6000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2566262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2566264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2566266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="8000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2586262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2586264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2586266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="10000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2606262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2606264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2606266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="12000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2626262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2626264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2626266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="14000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2646262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2646264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2646266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="16000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2666262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2666264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201904-LID1-AHD_2666266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="18000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2766266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2786266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2806266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2826266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201102-LID1-AHD_2846266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2686240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2686242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2706242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2726242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2726244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2746242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2746244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2746246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2766244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2766246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201407-LID1-AHD_2766248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2706238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2706240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2726238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2726240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2746238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201605-LID1-AHD_2746240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2746254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2766260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2786266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2806266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2826266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201705-LID1-AHD_2846266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2686266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2706266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2726266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201804-LID1-AHD_2746266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2686262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2686264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2686266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="20000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2706266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="22000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2726266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="24000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2746266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2766266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2786266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2806266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201904-LID1-AHD_2826266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2746264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="26000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766238_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="28000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2766264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="28000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2786264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="30000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2806264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="32000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2826264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="34000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846240_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="26000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846248_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="18000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846250_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="16000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846252_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="14000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846254_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="12000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846256_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="10000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846258_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="8000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846260_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2000" RasterYSize="2000" DataType="Float32" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="6000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846262_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="4000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846264_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="2000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Penrith201907-LID1-AHD_2846266_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="36000" yOff="0" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2486242_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="24000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2486244_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="22000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">NSW Government - Spatial Services/DEM/1 Metre/Katoomba201407-LID1-AHD_2486246_56_0002_0002_1m.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SrcRect xOff="0" yOff="0" xSize="2000" ySize="2000" />
+      <DstRect xOff="0" yOff="20000" xSize="2000" ySize="2000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <OverviewList resampling="nearest">2 4 8</OverviewList>
+</VRTDataset>
